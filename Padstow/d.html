@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Padstow</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playball&amp;subset=latin-ext" rel="stylesheet">
+ 
+  <style>
+   *{
+  	margin:0px;
+  	padding: 0px;
+  }
+  body{
+  	overflow-x: hidden;
+  }
+  html,body{
+  	max-width: 100%;
+  	max-height: 100%;
+
+  }
+  body{
+  	padding-top:80px;
+  }
+  .container{
+  	background-color: white;
+  	width:100%;
+  	font-weight: bold;
+  }
+  .container .btn-danger{
+  	margin-top: 1%;
+  	border-radius: 60px; 
+  	font-weight: bold;
+  }
+ .container1{
+ 	display: block;
+ }
+  .thumbnail{position:relative;
+  	z-index: 0;
+    }
+
+  	 .content h1{
+  		position:absolute;
+  		top:30%;
+  		left:3%;
+  		font-size:4.5625vw;
+  		text-align: center;
+  		color:white;
+  		   
+  		    font-family: "playfair-web", Helvectia, Arial, Sans-Serif;
+  		    font-weight: 900;
+  	}
+
+
+  	.container2{
+  		position:absolute;
+  		display: block;
+  		box-shadow: 15px 15px;
+
+  	}
+  	.container2{
+  	position: absolute;
+  	top: 85%;
+  	margin-left: 5%;
+  	background-color: white;
+  	padding:3%;
+  	width: 88%;
+  	color: grey;
+  	z-index: 2;
+
+  }
+ 
+  
+  .container2 .btn-danger{
+  	font-weight: bold;
+  	padding:20px;
+  	border-radius:30px;
+  	font-size:26px;
+  }
+
+  .container3{
+  	display: block;
+  	margin-top: 10%;
+  	overflow: hidden;
+
+  }
+  .content1{
+  	text-align: center;
+  	padding-top: 85%;
+  	overflow: hidden;
+  }
+  .content1 h1
+  {
+  	display: block;
+  	 font-family: "abril-web", Arial, Helvetica, sans-serif;
+  	 color: grey;
+  	 font-weight: 900;
+  }
+   .content1 p{
+  	display: block;
+  	color: grey;
+  }
+  .container4{
+  	margin-top: 5%;
+  	margin-left: 2%;
+  	color:grey;
+  }
+  .container4 img{
+     max-width: 100%;
+     max-height: auto;
+     size:cover;
+  }
+  .container4 a{
+  	color:#c62828;
+  	font-size: 26px;
+  	font-weight: 800;
+  }
+  
+ .container5{
+ 	margin-top: 10%;
+ 	display: block;
+ }
+.img-responsive{
+	max-width: 100%;
+	max-height: auto;
+}
+ .thumbnail1{
+ 	position:relative;
+ }
+ .well{
+ 	position: absolute;
+ 	top:50%;
+ 	text-align: center;
+ 	left:58%;
+ 	background-color:white;
+ 	max-height:60vh;
+ 	max-width: 100vh;
+ 	
+ }
+ .container4 figure img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.container4 figure:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+ @media (max-width:641px) {
+    .well {
+      /* force devises with a smaller width to observe this style */
+      position: absolute;
+      left:0%;
+      min-width: 100%;
+      max-height:auto;
+      margin-left: 0px;
+    }
+}
+ @media (min-width:641px) {
+ 	.container3{
+         margin-top:-65%;
+         padding-top: 0%;
+ 	}
+ }
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+<div class="container">
+<button type="button" class='navbar-toggle' data-toggle="collapse" data-target="#navbarcollapse">
+  <i class="fa fa-align-justify" style="font-size:48px;color:red;"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarcollapse">
+<ul class="nav navbar-nav navbar-right">
+ <li><a href="#">OUR PROPERTIES</a></li>
+       <li><a href="#">DISCOVER PADSTOW</a></li>
+       <li><a href="#">BLOG</a></li>
+       <li><a href="#">ABOUT US</a></li>
+       <li><a href="#">CONTACT US</a></li>
+<button type="button" class="btn btn-danger">MY BOOKINGS</button>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container1">
+	<div class="thumbnail">
+		<img src="https://www.padstowbreaks.com/images/jpeg/hero-home-4--1400.jpg?v=2.07">
+		<div class="content">
+	<h1>Luxury self-catering properties in Padstow, Cornwall<br>
+</h1>
+</div>
+
+
+
+<div class="container2">
+	<form class="form-inline">
+		<div class='form-group'>
+			<label for='date'>Arrival date</label>
+			<br>
+			<input type="date" class="form-control" placeholder="Select arrival date" name="date">
+		</div>
+		<div class='form-group'>
+			<label for='number'>NO. OF NIGHTS</label>
+			<br>
+			<input type="number" class="form-control" placeholder="How many nights" name="number">
+		</div>
+		<div class='form-group'>
+			<label for='nummber'>NO. OF PEOPLE</label>
+			<br>
+			<input type="number" class="form-control" placeholder="No. of people">
+		</div>
+		<div class='form-group'>
+			<label for='date'>More search options +</label>
+		</div>
+
+		<div class="form-group">
+			<button type="button" class="btn btn-danger btn btn-lg"> Search for properties</button>
+		</div>
+	</form>
+	
+</div>
+</div>
+</div>
+
+<div class="container3">
+	<div class="content1">
+				<h1> Our march special offers</h1>
+			
+				<p>Start your Padstow Break by booking a self-catering property with style and comfort, right in the heart of the Old Town. Here <br> are some of our very best deals on Padstow holiday cottages and apartments. We have some fantastic offers for
+short breaks and week bookings.</p>
+
+</div>
+
+
+<div class="container4">
+	<div class="row">
+		<div class="col-lg-4 col-sm-12">
+			<figure><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"></figure>
+			<h1>Duke's Cabin</h1>
+<p>This is our wonderfully spacious first floor apartment which has been beautifully furnished in a contemporary style.</p>
+<a href="#">View more</a>
+</div>
+
+<div class="col-lg-4 col-sm-12">
+  <figure>
+		<img src="https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+  </figure>
+		<h1>Duke's Retreat</h1>
+<p>The beautiful original oak beams combined with the<br> contemporary furnishings create the perfect relaxing <br>atmosphere you need on your holiday.</p>
+<a href="#">View more</a>
+	</div>
+
+<div class="col-lg-4 col-sm-12">
+	<br>
+	<br>
+<div class="row">
+	<div class="col-lg -4  col-sm-12">
+    <figure>
+		<img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+  </figure>
+		<h1>Mary Dann</h1>
+<p>Our charming ground floor apartment with contemporary furnishings is ideal for small families and couples.</p>
+<a href="#">View more</a>
+<br>
+<br>
+<br>
+<div class="row">
+	<div class="col-lg-12 col-sm-12">
+    <figure>
+		<img src="https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+  </figure>figure>
+		<h1>Castell Nedd</h1>
+<p>Castell Nedd is one of our luxuriously stylish holiday cottages and is located just a short walk from the harbour.</p>
+<a href="#">View more</a>
+
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="container5">
+	<div class="thumbnail1">
+		<img src="https://www.padstowbreaks.com/images/jpeg/hero-home-4--1400.jpg?v=2.07" class='img-responsive'>
+		<div class="well">
+			<h1>Why visit Padstow?</h1>
+<p>Padstow is known as a foodie paradise, but it’s also famous for its art, beaches<br> and beautiful countryside. There’s so much to see and do that you might find <br>yourself coming back to visit again and again!</p>
+<br>
+<p>Take a trip out onto the water with a coastal cruise or a sea safari, explore the <br>coastline on the Camel Trail, or enjoy the shops, galleries and restaurants of the<br> Old Town. There’s incredible food and drink, and always something going on in <br>Padstow.</p>
+<br>
+<button type="button" class="btn btn-lg btn-danger" style="border-radius: 45px;">Discover Padstow</button>
+</div>
+	</div>
+</div>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  window.sr=ScrollReveal();
+  sr.reveal('form',{
+    duration:3000,
+    origin:'bottom'
+  })
+</script>
+
+<script>
+  window.sr=ScrollReveal();
+  sr.reveal('.content1',{
+    duration:3000,
+    origin:'bottom'
+  })
+</script>
+<script>
+  window.sr=ScrollReveal();
+  sr.reveal('.container4',{
+    duration:3000,
+    origin:'bottom'
+  })
+</script>
+<script>
+  window.sr=ScrollReveal();
+  sr.reveal('.container5',{
+    duration:3000,
+    origin:'bottom'
+  })
+</script>
+
+<script>
+  window.sr=ScrollReveal();
+  sr.reveal('.well',{
+    duration:3000,
+    origin:'bottom'
+  })
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
